@@ -3,8 +3,9 @@
     "name": "recatApp",
     "slug": "recatApp",
     "version": "1.0.0",
+    "scheme": "recatApp",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/chat.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -22,6 +23,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-font", "expo-router"]
   }
 }
